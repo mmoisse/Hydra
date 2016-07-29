@@ -15,7 +15,7 @@ Below are the requirements and instructions for installation of Hydra-Multi.
 ##Requirements
 1. [samtools](http://samtools.sourceforge.net/)
 2. [pysam](https://code.google.com/p/pysam/)
-3. `set ulimit -f 16384`
+3. `set ulimit -n 16384`
 
 The ulimit determines the number of open file handles on a system.  
 This number must be larger than 4*number of possible chromosome-chromosome combinations in the respective reference.  
